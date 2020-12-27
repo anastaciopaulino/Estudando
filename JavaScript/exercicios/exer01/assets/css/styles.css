@@ -51,3 +51,21 @@ form button:hover {
   background-color: rgb(0, 204, 255);
   transition: 1s;
 }
+
+.invalid {
+  margin-top: 10px;
+  background: rgba(255, 76, 76, 0.952) ;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.success {
+  margin-top: 10px;
+  background: rgba(108, 252, 115, 0.952) ;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
