@@ -2,10 +2,15 @@
  * Escopo Léxico
  */
 
- const nome = 'Anastácio'
+const nome = 'Anastácio'
 
- function falaNome() {
-   console.log(nome);
- }
+function falaNome() {
+  console.log(nome);
+}
 
- falaNome()
+function usaFalaNome() {
+  const nome = 'Paulino';
+  falaNome();
+}
+
+usaFalaNome()
