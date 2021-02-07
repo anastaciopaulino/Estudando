@@ -1,0 +1,14 @@
+@import "color";
+
+$rocho: #84e;
+
+div {
+    background: $rocho;
+    height: 200px;
+    width: 100px;
+
+    a {
+        color: pink;
+        background: blue;
+    }
+}

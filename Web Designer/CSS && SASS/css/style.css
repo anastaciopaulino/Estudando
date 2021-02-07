@@ -1,0 +1,15 @@
+p {
+  color: aqua;
+  background: gray;
+}
+
+div {
+  background: #84e;
+  height: 200px;
+  width: 100px;
+}
+
+div a {
+  color: pink;
+  background: blue;
+}
