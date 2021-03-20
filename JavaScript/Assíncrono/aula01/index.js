@@ -23,7 +23,7 @@ EsperaAi('Frase 1', rand(1, 3))
   })
   .then(resposta => {
     console.log(resposta);
-    return EsperaAi(222, rand(1, 3));
+    return EsperaAi(123, rand(1, 3));
   })
   .then(resposta => {
     console.log(resposta);
