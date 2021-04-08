@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+  --primary-color: rgb(60, 89, 255);
+  --primary-dark: rgb(75, 82, 126);
+}
+* {
+  box-shadow: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form .btn {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+form .btn:hover {
+  background: var(--primary-dark);
+}
+
+
+.container h1 {
+  text-align: center;
+}
+
+.container .senha-gerada {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+
+input[type='checkbox']{
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  border: 3px solid var(--primary-color);
+  background: none;
+  border-radius: 10px;
+  font-size: 1em;
+  color: var(--primary-color);
+}
